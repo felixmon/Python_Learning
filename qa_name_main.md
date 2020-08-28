@@ -1,5 +1,7 @@
 ## What's \_\_name\_\_ and \_\_main\_\_ ?
 
+大白话: Python 无需 main 也可以运行，因为它本身就是逐行编译的。用 ```__main__```主要是可以针对性识别本模块（.py）是否主程序。另外 ```__name___```是保留名，当 ```if __name__ == '__main__'```的时候，意思就是只有当本文件（.py，也就是模块）被直接运行（而不是 import）的时候，才会被执行。就这么个事。
+
 Link: https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.  
 
 Author: [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)  
