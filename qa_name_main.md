@@ -68,6 +68,6 @@ The variable ```__name__``` for the file/module that is run will be always ```__
 
 **Conclusion**
 
-There is a really nice use case for the ```__name__``` variable, whether you want a file that can be run as the main program or imported by other modules. We can use an if ```__name__ == "__main__"``` block to allow or prevent parts of code from being run when the modules are imported.
+There is a really nice use case for the ```__name__``` variable, whether you want a file that can be run as the main program or imported by other modules. We can use an ```if __name__ == "__main__"``` block to allow or prevent parts of code from being run when the modules are imported.
 
 When the Python interpreter reads a file, the ```__name__``` variable is set as ```__main__``` if the module being run, or as the module's name if it is imported. Reading the file executes all top level code, but not functions and classes (since they will only get imported).
