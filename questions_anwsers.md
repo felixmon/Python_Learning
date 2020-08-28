@@ -2,9 +2,10 @@
 
 ## What's \_\_name\_\_ and \_\_main\_\_ ?
 
-Link: https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.
+Link: https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.  
 
-Author: [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)
+Author: [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)  
+
 When a Python interpreter reads a Python file, it first sets a few special variables. Then it executes the code from the file.  
 
 Python files are called modules and they are identified by the .py file extension. A module can define functions, classes, and variables.  
