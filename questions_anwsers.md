@@ -1,6 +1,10 @@
 # Python Q&A
 
 ## What's \_\_name\_\_ and \_\_main\_\_ ?
+
+Link: https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.
+
+Author: [Goran Aviani](https://www.freecodecamp.org/news/author/goran/)
 When a Python interpreter reads a Python file, it first sets a few special variables. Then it executes the code from the file.  
 
 Python files are called modules and they are identified by the .py file extension. A module can define functions, classes, and variables.  
@@ -62,3 +66,9 @@ File two __name__ is set to: __main__
 ```
 
 The variable ```__name__``` for the file/module that is run will be always ```__main__```. But the ```__name__``` variable for all other modules that are being imported will be set to their module's name.
+
+**Conclusion**
+
+There is a really nice use case for the ```__name__``` variable, whether you want a file that can be run as the main program or imported by other modules. We can use an if ```__name__ == "__main__"``` block to allow or prevent parts of code from being run when the modules are imported.
+
+When the Python interpreter reads a file, the ```__name__``` variable is set as ```__main__``` if the module being run, or as the module's name if it is imported. Reading the file executes all top level code, but not functions and classes (since they will only get imported).
