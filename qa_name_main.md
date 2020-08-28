@@ -1,5 +1,3 @@
-# Python Q&A
-
 ## What's \_\_name\_\_ and \_\_main\_\_ ?
 
 Link: https://www.freecodecamp.org/news/if-name-main-python-example/#:~:text=We%20can%20use%20an%20if,name%20if%20it%20is%20imported.  
