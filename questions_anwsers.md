@@ -14,4 +14,6 @@ But if the code is importing the module from another module, then the ```__name_
 
 print("File one __name__ is set to: {}" .format(__name__))
 ```
-->file_one.py<-
+<p align="center">
+  file_one.py
+  </p>
