@@ -1,7 +1,10 @@
 ## Plot derivatives with Jupyter and Matplotlib
 
 The following codes plot:  
-function A $f(x)=x^3+x^2$
+function A 
+$$
+f(x)=x^3+x^2
+$$
 
 [reference 1 stackoverflow.com](https://stackoverflow.com/a/31558968)  
 [reference 2 socratic.org](https://socratic.org/questions/how-do-you-find-the-nth-derivative-of-the-function-f-x-x-n)  
