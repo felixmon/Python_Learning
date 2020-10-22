@@ -1,6 +1,6 @@
 Plot derivatives with Jupyter and Matplotlib
 
-[reference 1 Stackoverflow](https://stackoverflow.com/a/31558968)  
+[reference 1 stackoverflow.com](https://stackoverflow.com/a/31558968)  
 [reference 2 socratic.org](https://socratic.org/questions/how-do-you-find-the-nth-derivative-of-the-function-f-x-x-n)  
 [reference 3 scipy.org](https://docs.scipy.org/doc/scipy/reference/generated/scipy.misc.derivative.html)  
 ```python
