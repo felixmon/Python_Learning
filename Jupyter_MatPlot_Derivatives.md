@@ -35,3 +35,6 @@ ax.spines['right'].set_color('none')
 ax.spines['top'].set_color('none')
 plt.savefig('temp.png')
 ```
+
+Outcome:  
+<img src="https://raw.githubusercontent.com/felixmon/Python_Learning/master/Jupyter_MatPlot_Derivatives.md.png">
