@@ -1,4 +1,6 @@
 Plot derivatives with Jupyter and Matplotlib
+
+[reference 1](https://stackoverflow.com/a/31558968)
 ```python
 %matplotlib inline
 import matplotlib.pyplot as plt
