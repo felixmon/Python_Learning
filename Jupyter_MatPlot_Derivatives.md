@@ -1,6 +1,6 @@
 ## Plot derivatives with Jupyter and Matplotlib
 
-The following codes plot:  
+The following codes plot these two functions:  
 function A: <img src="https://render.githubusercontent.com/render/math?math=f(x)=x^3 %2B x^2">  
 function B: <img src="https://render.githubusercontent.com/render/math?math=f'(x)">
 
